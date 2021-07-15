@@ -331,7 +331,7 @@ main {
   color: var(--black);
 }
 
-.main-product-detail{
+.main-product-detail {
   position: relative;
   width: 100%;
   min-width: 320px;
@@ -340,7 +340,7 @@ main {
   background-color: var(--warm-black);
 }
 
-.product-detail--batata-logo{
+.product-detail--batata-logo {
   position: absolute;
   width: 40px;
   height: 25px;
@@ -349,7 +349,7 @@ main {
   background-image: url('./assets//icons/batata.svg');
 }
 
-.product-detail--title{
+.product-detail--title {
   width: 90%;
   min-width: 288px;
   height: auto;
@@ -383,7 +383,7 @@ main {
   padding: 15px;
   background-color: var(--black);
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .product-detail--card .icon {
@@ -395,16 +395,20 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
-.icon.clock{
+
+.icon.clock {
   background-image: url('./assets/icons/clock.svg');
 }
-.icon.eye{
+
+.icon.eye {
   background-image: url('./assets/icons/eye.svg');
 }
-.icon.dollar-sign{
+
+.icon.dollar-sign {
   background-image: url('./assets/icons/dollar-sign.svg');
 }
-.icon.check-circle{
+
+.icon.check-circle {
   background-image: url('./assets/icons/check-circle.svg');
 }
 
@@ -433,6 +437,7 @@ main {
   background-repeat: no-repeat;
   text-align: center;
 }
+
 .bitcoin-img-container h2 {
   padding-top: 60px;
   font-size: 2.4rem;
@@ -440,30 +445,47 @@ main {
   line-height: 2.6rem;
   color: var(--just-white);
 }
+
 .main-plans-container {
   width: 100%;
   min-width: 320px;
   padding-bottom: 70px;
   text-align: center;
 }
-.plans--title{
+
+.plans--title {
   width: 90%;
   min-width: 288px;
   height: auto;
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.plans--title h2{
+
+.plans--title h2 {
   padding-top: 50px;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--black);
 }
+
 .plans--title p {
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: #757575;
+}
+
+.plans-container--card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89,73,30,0.16);
 }
